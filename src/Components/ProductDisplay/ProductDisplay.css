@@ -1,0 +1,166 @@
+.productdisplay{
+    display: flex;
+    margin: 20px 50px;
+    gap: 50px;
+    padding: 20px;
+}
+
+.productdisplay-left{
+    display: flex;
+    gap: 17px;
+}
+
+.productdisplay-img-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.productdisplay-img-list img{
+    height: 125px;
+}
+
+.productdisplay-main-img{
+    width: 500px;
+    height:549px;
+}
+
+.productdisplay-right{
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+}
+
+.productdisplay-right h1{
+    color: #3d3d3d;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.productdisplay-right-star{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+}
+
+.productdisplay-right-prices{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    gap: 20px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #3d3d3d;
+}
+
+.productdisplay-right-price-old{
+    text-decoration: line-through;
+}
+
+.productdisplay-right-price-new{
+    color:#ff4141;
+}
+
+.productdisplay-right-description{
+    font-size: 14px;
+    font-weight:500;
+    color: #3d3d3d;
+}
+
+.productdisplay-right-size{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.productdisplay-right-size h1{
+    font-size: 28px;
+    font-weight: 300;
+    font-variant: small-caps;
+}
+
+.productdisplay-right-select{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.productdisplay-right-select div{
+    width: 25px;
+    border:none;
+    border-radius: 5px;
+    background: #eae9e9;
+    padding:8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight:600;
+    color: #3d3d3d;
+}
+
+.add-cart-button{
+    width: 220px;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    background: #ff4141;
+    font-size:18px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+.productdisplay-right-category{
+    font-size: 18px;
+    margin-bottom: -10px;
+    color: #3d3d3d;
+}
+
+.productdisplay-right-category span{
+    font-size: 19px;
+    color: black;
+    font-weight: 600;
+}
+
+@media screen and (max-width:767px){
+    .productdisplay{
+        flex-direction: column;
+        margin: 10px 15px;
+        gap:30;
+        padding: 0px;
+    }
+
+    .productdisplay-left{
+        display: flex;
+        gap: 10px;
+    }
+    
+    .productdisplay-img-list{
+        gap: 10px;
+    }
+    
+    .productdisplay-img-list img{
+        height:79px;
+    }
+
+    .productdisplay-main-img{
+        width:290px;
+        height:345px;
+    }
+
+    .productdisplay-right{
+        gap:10px;
+    }
+    
+    
+    .productdisplay-right h1{
+        font-size:30px;
+    }
+
+    .add-cart-button{
+        width:160px;
+    }
+}
